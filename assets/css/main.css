@@ -2103,15 +2103,16 @@
 
 	#one {
 		background: url("../../images/one.jpg");
-		background-size: 75%, cover;
+		background-size: 101%, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
+		background-repeat: no-repeat;
 	}
 
 /* Two */
 
 	#two {
-		background: url("images/overlay.png"), url("../../images/two.jpg");
+		background: url("../../images/two.jpg");
 		background-size: 75%, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
